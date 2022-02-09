@@ -25,3 +25,11 @@ document.getElementById('handle-d-own-3').addEventListener('click', function(){
     const clickingMethod = document.getElementById('clicking-method')
     clickingMethod.innerText = 'tried and set directly bay me first time 3'  
 })
+// input button relation by direct method /////
+document.getElementById('update-click').addEventListener('click', function(){
+    const  nameField = document.getElementById('name-field');
+    nameField.innerText = nameField.value
+    const clickingMethod = document.getElementById('clicking-method')
+    clickingMethod.innerText = nameField.value;
+    nameField.value = '';
+})
