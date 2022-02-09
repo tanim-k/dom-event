@@ -22,4 +22,11 @@ function makeRed() {
         goldenrodButton.addEventListener('click', makeGoldenrodButton);
         function makeGoldenrodButton() {
             document.body.style.backgroundColor = 'goldenrod';
-        }    
+        }
+// <!-- add event by function, click with id: 6  -->
+    const hotPinkButton = document.getElementById('make-hotpink-button');
+        // console.log(hotPinkButton);
+        hotPinkButton.addEventListener('click', function makePinkButton(){
+            document.body.style.backgroundColor = 'hotpink'
+        })    
+        

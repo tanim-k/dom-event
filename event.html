@@ -21,9 +21,13 @@
     <button id="make-green-button">click: another way by id: green</button>
         <!-- add event by function eith id: 6  -->
     <button id="make-goldenrod-button">by ID: goldenrod</button>
+    <button id="make-hotpink-button">by ID: hotpink</button>
+    <button id="make-lightblue-button">by ID: lightblue</button>
     <!-- javascript -->
     <script>
-        
+        document.getElementById('make-lightblue-button').addEventListener('click', function(){
+            document.body.style.backgroundColor = 'lightblue'
+        })
     </script>
     <script src="js/event.js"></script>
 
